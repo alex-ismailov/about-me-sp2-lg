@@ -4,6 +4,10 @@
 @import "utils/fonts";
 
 // Modules
-@import 'modules/logo.scss';
-@import 'modules/menu.scss';
+@import 'modules/header.scss';
 @import 'modules/greeting.scss';
+
+img {
+  max-width: 100%;
+  height: auto;
+}
