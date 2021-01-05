@@ -1,0 +1,24 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 111;
+
+  &--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: -15px;
+  }
+
+  &--menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin: 0 0 0 -15px;
+  }
+}
