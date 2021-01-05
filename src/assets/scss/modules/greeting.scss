@@ -1,5 +1,24 @@
 .greeting {
   height: 100vh;
   overflow: hidden;
-  background-color: rgb(235, 233, 217);
+
+  &--bg-layer-1 {
+    height: inherit;
+    background: linear-gradient(to top left, #dfdcdb 50%, transparent 0%)
+  }
+
+  &--bg-layer-2 {
+    height: inherit;
+    background: url('../../assets/img/konduki-my-face-HD-1345-1345.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  &--bg-layer-3 {
+    height: 30%;
+    position: relative;
+    top: 70%;
+    background: linear-gradient(to top right, #ff6f69 50%, transparent 0%);
+  }
 }
