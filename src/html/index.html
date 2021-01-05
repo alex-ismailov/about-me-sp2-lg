@@ -5,14 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <% for (css in htmlWebpackPlugin.files.css) { %>
-    <link 
+    <link
     href="<%= htmlWebpackPlugin.files.css[css] %>"
     rel="stylesheet">
   <% } %>
-  <title>html template</title>
+  <title>Alex Ismailov</title>
 </head>
 <body>
-  <h1>Webpack</h1>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="logo">Alis</div>
+        </div>
+        <div class="col-sm-7">
+          <nav>
+            <ul class="menu">
+              <li>HOME</li>
+              <li>MY WORK</li>
+              <li>EDUCATION</li>
+              <li>CONTACT</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <section class="greeting">
+            <h1>Hello! I am Alex Ismailov</h1>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
 
   <% for (index in htmlWebpackPlugin.files.js) { %>
     <script src="<%= htmlWebpackPlugin.files.js[index] %>" type="text/javascript"></script>
