@@ -3,9 +3,8 @@
   overflow: hidden;
 
   &--bg-layer-1 {
-    // height: inherit;
     background: linear-gradient(to bottom left, #dfdcdb 50%, transparent 0%); // rgba(104,109,114,0.06)
-    height: 60%;
+    height: 70%;
   }
 
   &--bg-layer-2 {
@@ -17,29 +16,64 @@
 
   }
 
-  &--content {
-    // position: relative;
-    // top: 40%;
-  }
-
   &--bg-layer-3 {
     height: 20%;
     position: relative;
-    top: 60%;
-    background: linear-gradient(to top right, #1e2528 50%, transparent 0%);
+    top: 55%;
+    background: linear-gradient(to top right, #1e2528 49.5%, transparent 50%);
+  }
+
+  &--content {
+    position: absolute;
+    bottom: 150%;
+    width: 40%;
+
   }
 
   &--bg-layer-4 {
     background: #1e2528;
-    height: 10%;
+    height: 15%;
     position: relative;
-    top: 60%;
+    top: 54.9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+  }
+
+  &--quote {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  &--quote-sign {
+    position: relative;
+    left: 15px;
+    bottom: 50px;
+    font-size: 60px;
+    color: rgba(255,255,255,0.14);
+  }
+
+  &--quote-text {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  &--quote-author {
+    color: rgba(255,255,255,0.14);
+    text-transform: uppercase;
+    font-size: 15px;
   }
 
   &--bg-layer-5 {
-    height: 10%;
+    height: 11%;
     position: relative;
-    top: 60%;
-    background: linear-gradient(to bottom right, #1e2528 50%, #fff 50%);
+    top: 54.8%;
+    background: linear-gradient(to bottom right, #1e2528 49%, #fff 50%);
   }
 }
