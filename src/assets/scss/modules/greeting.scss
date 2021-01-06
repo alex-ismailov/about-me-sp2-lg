@@ -23,11 +23,63 @@
     background: linear-gradient(to top right, #1e2528 49.5%, transparent 50%);
   }
 
+  &--greet {
+    color: rgba(104,109,114,0.50);
+    font-size: 24px;
+  }
+
   &--content {
     position: absolute;
     bottom: 150%;
-    width: 40%;
+    width: 450px;
+  }
 
+  &--title {
+    font-size: 48px;
+    color: #4f565b;
+  }
+
+  &--divider {
+    background-image: linear-gradient(160deg,#8300e9 0%,#00e2db 88%);
+    height: 4px;
+    margin-bottom: 15px!important;
+    border-radius: 4px;
+    width: 20%;
+  }
+
+  &--butttons-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px 0 0 0;
+    list-style: outside none;
+  }
+
+  &--button {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px;
+    line-height: 23px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(160deg,#8300e9 0%,#00e2db 100%);
+    transition: all 300ms ease 0ms;
+  }
+
+  &--button:hover {
+    color: #fff;
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 1px 15px 35px -10px rgba(0,0,0,0.4);
+  }
+
+  &--text {
+    font-weight: 300;
+    font-size: 34px;
+    color: rgba(104,109,114,0.45)
   }
 
   &--bg-layer-4 {
@@ -73,7 +125,7 @@
   &--bg-layer-5 {
     height: 11%;
     position: relative;
-    top: 54.8%;
+    top: 54.7%;
     background: linear-gradient(to bottom right, #1e2528 49%, #fff 50%);
   }
 }
