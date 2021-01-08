@@ -16,7 +16,6 @@ img {
 
 body {
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-  color: #4f565b;
-  max-width: 100%;
-  overflow: hidden;
+  color: $mainFontColor;
+  overflow-x: hidden;
 }
