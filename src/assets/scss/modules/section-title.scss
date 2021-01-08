@@ -2,21 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // justify-content: center;
-  // width: fit-content;
-  // margin-top: 30px;
   padding-top: 30px;
 
   &--small-head {
     color: rgba(104,109,114,0.50);
     font-size: 24px;
     margin: 0;
+
+    &-footer-color {
+      color: rgba(255,255,255,0.2);
+    }
   }
 
   &--head {
     font-size: 48px;
     color: #4f565b;
     margin: 0;
+
+    &-footer-color {
+      color: #fff;
+    }
   }
 
   &--divider {
