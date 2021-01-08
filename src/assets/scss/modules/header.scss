@@ -25,5 +25,16 @@
   &--menu-item {
     list-style-type: none;
     letter-spacing: 2px;
+    color: #aaa;
   }
+
+  &--menu-item:hover {
+    color: $mainFontColor;
+    cursor: pointer;
+  }
+
+  &--menu-item-active {
+    color: $mainFontColor;
+  }
+
 }
