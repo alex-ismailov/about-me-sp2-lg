@@ -114,7 +114,34 @@
       </div>
     </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="section-title">
+      <p class="section-title--small-head section-title--small-head-footer-color">Let’s Talk!</p>
+      <h2 class="section-title--head section-title--head-footer-color">Get in Touch!</h2>
+    </div>
+    <div class="footer--content">
+      <!-- <div class="offset-block"></div> -->
+      <div class="footer--email-wrapper">
+        <!-- icon -->
+        <div><i class="far fa-envelope"></i></div>
+        <p class="footer--email">alexx-ismailov@gmail.com</p>
+      </div>
+      <div class="footer--links-wrapper">
+        <!-- linkedin -->
+        <i class="fab fa-linkedin-in"></i>
+        <!-- fb -->
+        <i class="fab fa-facebook-f"></i>
+        <!-- twitter -->
+        <i class="fab fa-twitter"></i>
+        <!-- pinterest -->
+        <i class="fab fa-pinterest-p"></i>
+        <!-- vk -->
+        <i class="fab fa-vk"></i>
+        <!-- telegram -->
+        <i class="fab fa-telegram-plane"></i>
+      </div>
+    </div>
+  </footer>
 
   <% for (index in htmlWebpackPlugin.files.js) { %>
     <script src="<%= htmlWebpackPlugin.files.js[index] %>" type="text/javascript"></script>
