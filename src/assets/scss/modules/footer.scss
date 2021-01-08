@@ -1,0 +1,38 @@
+.footer {
+  // height: 30vh;
+  background: linear-gradient(160deg,#8300e9 0%,#00e2db 88%);
+  color: #fff;
+  padding-top: 40px;
+
+  // &-font-color {
+  //   color: #fff;
+  // }
+
+  &--content {
+    display: flex;
+    justify-content: space-around;
+    // justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    font-size: 30px;
+  }
+
+  &--email-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+  }
+
+  &--email {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  &--links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    // font-size: 30px;
+    width: 25%;
+  }
+}
