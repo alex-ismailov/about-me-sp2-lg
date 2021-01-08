@@ -20,7 +20,7 @@
         <div class="col-7">
           <nav>
             <ul class="header--menu">
-              <li class="header--menu-item">HOME</li>
+              <li class="header--menu-item header--menu-item-active">HOME</li>
               <li class="header--menu-item">MY WORK</li>
               <li class="header--menu-item">EDUCATION</li>
               <li class="header--menu-item">CONTACT</li>
@@ -73,16 +73,39 @@
                 </div>
                 <div class="greeting--bg-layer-5"></div>
               </div>
-
             </div>
-
+          </section>
+          <section class="my-work">
+            <div class="section-title">
+              <p class="section-title--small-head">Portfolio</p>
+              <h2 class="section-title--head">Recent projects</h2>
+              <div class="section-title--divider"></div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="my-work--card-wrapper">
+                  <article class="my-work--card">
+                    <div class="my-work--img-container">
+                      <img class="my-work--card-img" src="/assets/img/brain-game-logo.png" alt="diff-img.png">
+                    </div>
+                    <h3 class="my-work--card-title">card title</h3>
+                    <p class="my-work--card-description">card title Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius harum voluptatum laudantium impedit natus.</p>
+                  </article>
+                  <article class="my-work--card">
+                    <div class="my-work--img-container">
+                      <img class="my-work--card-img" src="/assets/img/diff-img.png" alt="diff-img.png">
+                    </div>
+                    <h3 class="my-work--card-title">card title</h3>
+                    <p class="my-work--card-description">card title Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius harum voluptatum laudantium impedit natus.</p>
+                  </article>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>
     </div>
   </main>
-
-
 
   <% for (index in htmlWebpackPlugin.files.js) { %>
     <script src="<%= htmlWebpackPlugin.files.js[index] %>" type="text/javascript"></script>
