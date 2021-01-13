@@ -1,5 +1,5 @@
 .education {
-  height: 100vh;
+  min-height: 100vh;
   // background: linear-gradient(
   //   to bottom right,
   //   rgba(104,109,114,0.06) 10%,
@@ -12,4 +12,29 @@
     rgba(104,109,114,0.06) 10% 70%,
     white 70%,
   );
+
+  &--content-wrapper {
+    padding-top: 50px;
+  }
+
+  &--item-title-wrapper {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &--item-title {
+    margin: 0;
+    margin-right: 10px;
+    color: #4f565b;
+  }
+
+  &--item-img {
+    width: auto;
+    height: 50px;
+  }
+
+  &--item-description {
+    margin: 0;
+    padding: 15px;
+  }
 }
